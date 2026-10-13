@@ -1,0 +1,200 @@
+{
+  "template_sha256": "cd657f76a0d5aaa1c7ef6f5fe39f096c582450988d85822264b7cf787b621b3f",
+  "entries": [
+    {
+      "id": "B0001",
+      "kind": "p",
+      "text": "计算机科学与技术学院 实验报告",
+      "story": "document"
+    },
+    {
+      "id": "B0002",
+      "kind": "tbl",
+      "text": "课程名称：{{课程名称}}学生姓名：{{学生姓名}}学号信息：{{学号}}",
+      "story": "document"
+    },
+    {
+      "id": "B0003",
+      "kind": "p",
+      "text": "",
+      "story": "document"
+    },
+    {
+      "id": "B0004",
+      "kind": "p",
+      "text": "一、实验内容与步骤",
+      "story": "document"
+    },
+    {
+      "id": "B0005",
+      "kind": "p",
+      "text": "请在此处填写实验步骤及运行结果截图。",
+      "story": "document"
+    },
+    {
+      "id": "B0006",
+      "kind": "p",
+      "text": "二、思考题与总结",
+      "story": "document"
+    },
+    {
+      "id": "B0007",
+      "kind": "p",
+      "text": "请在此处回答指导书思考题及心得。",
+      "story": "document"
+    },
+    {
+      "id": "B0008",
+      "kind": "p",
+      "text": "实验报告结束。",
+      "story": "document"
+    },
+    {
+      "id": "P0001",
+      "story": "document",
+      "text": "计算机科学与技术学院 实验报告",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:p[1]",
+      "style": "Normal"
+    },
+    {
+      "id": "CELL0001",
+      "story": "document",
+      "text": "课程名称：",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:tbl/w:tr[1]/w:tc[1]"
+    },
+    {
+      "id": "P0002",
+      "story": "document",
+      "text": "课程名称：",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:tbl/w:tr[1]/w:tc[1]/w:p",
+      "style": "Normal"
+    },
+    {
+      "id": "CELL0002",
+      "story": "document",
+      "text": "{{课程名称}}",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:tbl/w:tr[1]/w:tc[2]"
+    },
+    {
+      "id": "P0003",
+      "story": "document",
+      "text": "{{课程名称}}",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:tbl/w:tr[1]/w:tc[2]/w:p",
+      "style": "Normal"
+    },
+    {
+      "id": "CELL0003",
+      "story": "document",
+      "text": "学生姓名：",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:tbl/w:tr[2]/w:tc[1]"
+    },
+    {
+      "id": "P0004",
+      "story": "document",
+      "text": "学生姓名：",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:tbl/w:tr[2]/w:tc[1]/w:p",
+      "style": "Normal"
+    },
+    {
+      "id": "CELL0004",
+      "story": "document",
+      "text": "{{学生姓名}}",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:tbl/w:tr[2]/w:tc[2]"
+    },
+    {
+      "id": "P0005",
+      "story": "document",
+      "text": "{{学生姓名}}",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:tbl/w:tr[2]/w:tc[2]/w:p",
+      "style": "Normal"
+    },
+    {
+      "id": "CELL0005",
+      "story": "document",
+      "text": "学号信息：",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:tbl/w:tr[3]/w:tc[1]"
+    },
+    {
+      "id": "P0006",
+      "story": "document",
+      "text": "学号信息：",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:tbl/w:tr[3]/w:tc[1]/w:p",
+      "style": "Normal"
+    },
+    {
+      "id": "CELL0006",
+      "story": "document",
+      "text": "{{学号}}",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:tbl/w:tr[3]/w:tc[2]"
+    },
+    {
+      "id": "P0007",
+      "story": "document",
+      "text": "{{学号}}",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:tbl/w:tr[3]/w:tc[2]/w:p",
+      "style": "Normal"
+    },
+    {
+      "id": "P0008",
+      "story": "document",
+      "text": "",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:p[2]",
+      "style": "Normal"
+    },
+    {
+      "id": "P0009",
+      "story": "document",
+      "text": "一、实验内容与步骤",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:p[3]",
+      "style": "Heading 1"
+    },
+    {
+      "id": "P0010",
+      "story": "document",
+      "text": "请在此处填写实验步骤及运行结果截图。",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:p[4]",
+      "style": "Normal"
+    },
+    {
+      "id": "P0011",
+      "story": "document",
+      "text": "二、思考题与总结",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:p[5]",
+      "style": "Heading 1"
+    },
+    {
+      "id": "P0012",
+      "story": "document",
+      "text": "请在此处回答指导书思考题及心得。",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:p[6]",
+      "style": "Normal"
+    },
+    {
+      "id": "P0013",
+      "story": "document",
+      "text": "实验报告结束。",
+      "images": 0,
+      "xml_path": "/w:document/w:body/w:p[7]",
+      "style": "Normal"
+    }
+  ],
+  "note": "IDs refer only to this template version. Body regions use B IDs; paragraph/cell fields use P/CELL IDs. Inspect layout separately."
+}

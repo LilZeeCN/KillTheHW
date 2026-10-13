@@ -1,0 +1,4 @@
+interface:
+  display_name: "KillTheHW 实验报告自动化"
+  short_description: "工科实验报告自动化引擎：模板无损保版、自动截图取证、评分点查漏预检与去AI化排版"
+  default_prompt: "使用 $killthehw 处理我提供的实验任务书、学校模板与实验材料，完成报告生成与评分点预检。"

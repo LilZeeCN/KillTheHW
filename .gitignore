@@ -1,0 +1,29 @@
+# macOS / OS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python bytecode & environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+
+# Node / Remotion build artifacts
+node_modules/
+promo-video/node_modules/
+promo-video/.remotion/
+promo-video/dist/
+promo-video/out/
+
+# Local launch & research working files (kept locally, excluded from public repo)
+publish/
+validation/
+DESIGN_RESEARCH.md
+STYLE_RESEARCH.md
+OPEN_SOURCE_PLAN.md
+OPEN_SOURCE_RESEARCH.md
+TWITTER_LAUNCH_POST.md
+killthehw_promo.mp4

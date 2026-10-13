@@ -1,0 +1,88 @@
+{
+  "template_sha256": "cd657f76a0d5aaa1c7ef6f5fe39f096c582450988d85822264b7cf787b621b3f",
+  "replacements": [
+    {
+      "token": "{{课程名称}}",
+      "value": "Linux系统与网络基础",
+      "expected_count": 1
+    },
+    {
+      "token": "{{学生姓名}}",
+      "value": "张同学",
+      "expected_count": 1
+    },
+    {
+      "token": "{{学号}}",
+      "value": "2024010888",
+      "expected_count": 1
+    }
+  ],
+  "sections": [
+    {
+      "start": "B0004",
+      "end": "B0006",
+      "expect": "一、实验内容与步骤",
+      "heading": "一、实验内容与步骤",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1. 系统信息与磁盘状态检查：通过 uname -a 与 df -h 查看内核及根分区挂载情况。根分区使用率为 30%，空间充足。",
+          "font": "Times New Roman",
+          "font_eastasia": "宋体",
+          "font_size": 10.5,
+          "line_spacing": 1.5
+        },
+        {
+          "type": "image",
+          "path": "evidence/term_uname.png",
+          "width_cm": 14.0,
+          "caption": "图 1-1 系统信息与网络连通性测试终端记录"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. 网络连通性测试：向本地回环地址 127.0.0.1 发送 2 个 ICMP 报文，往返时延约 0.038ms，丢包率为 0%，网络协议栈工作正常。",
+          "font": "Times New Roman",
+          "font_eastasia": "宋体",
+          "font_size": 10.5,
+          "line_spacing": 1.5
+        }
+      ]
+    },
+    {
+      "start": "B0006",
+      "end": "B0008",
+      "expect": "二、思考题与总结",
+      "heading": "二、思考题与总结",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "【思考题 1】为什么多用户服务器中不建议日常使用 root 账户？\n答：root 账户拥有对系统的绝对不受控权限，日常操作容易因失误执行高危命令（如 rm -rf）导致不可逆损失；同时无法做到精细化审计与权限最小化原则。建议采用普通账户结合 sudo 按需提权。",
+          "font": "Times New Roman",
+          "font_eastasia": "宋体",
+          "font_size": 10.5,
+          "line_spacing": 1.5
+        },
+        {
+          "type": "paragraph",
+          "text": "【思考题 2】df 与 du 统计原理有何区别？\n答：df 通过文件系统超级块及元数据读取已分配块数量，统计速度极快；du 则是递归遍历目录树通过 stat() 累计文件大小。若大文件被进程占用打开的同时被 rm 删除，目录项已被移除（du 统计不到），但文件 inode 和数据块仍被进程引用，因此 df 仍显示占用，直到占用该文件的进程退出或重启服务。",
+          "font": "Times New Roman",
+          "font_eastasia": "宋体",
+          "font_size": 10.5,
+          "line_spacing": 1.5
+        },
+        {
+          "type": "paragraph",
+          "text": "【实验小结】\n本次实验在测试回环延迟时，首次由于未安装 net-tools 提示命令不存在，后改用 ip route 与 ping 验证。真实完成了系统命令与基础排障练习，未出现其他异常。",
+          "font": "Times New Roman",
+          "font_eastasia": "宋体",
+          "font_size": 10.5,
+          "line_spacing": 1.5
+        }
+      ]
+    }
+  ],
+  "forbid_text": [
+    "请在此处填写",
+    "{{学生姓名}}"
+  ]
+}
